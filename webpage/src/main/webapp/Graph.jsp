@@ -22,16 +22,16 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">보쌈김치 <em>by HTML5 UP</em></a>
+				<a href="index.html" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li class="current"><a href="통계.html">통계</a></li>
-					<li><a href="농가리스트.html">농가리스트</a></li>
-					<li><a href="예약조회.html">예약조회</a></li>
+					<li><a href="BMain.html">Home</a></li>
+					<li class="current"><a href="Graph.html">통계</a></li>
+					<li><a href="FarmList.html">농가리스트</a></li>
+					<li><a href="Book.html">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -51,13 +51,12 @@
 							<br>
 						</header>
 						<h3>배추공급량</h3>
-
-
+<!-- 배추공급량 그래프표시 -->
 						<span class="image featured"><img src="images/banner.jpg"
 							alt="" /></span>
 
 						<h3>배추가격</h3>
-
+<!-- 배추가격나타내는 사진 -->
 						<span class="image featured"><img src="images/banner.jpg"
 							alt="" /></span>
 					</article>
@@ -65,8 +64,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Footer -->
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
