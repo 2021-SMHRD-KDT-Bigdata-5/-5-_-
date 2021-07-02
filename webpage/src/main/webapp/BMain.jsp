@@ -12,17 +12,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+	</head> 
 	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header">
+		<div id="header">
 
-					<!-- Logo -->
-						<h1><a href="index.html" id="logo">돼지고기 <em>by HTML5 UP</em></a></h1>
-						<!-- 로그인 -->
-						
+			<!-- Logo -->
+			<h1>
+				<a href="index.html" id="logo">돼지고기 <em>by HTML5 UP</em></a>
+			</h1>
+			<!-- 로그인 -->
+			<nav>
+				<a href="login.jsp">로그인</a>
+			</nav>
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -35,9 +39,9 @@
 				</ul>
 			</nav>
 
-				</div>
+		</div>
 
-			<!-- Banner -->
+		<!-- Banner -->
 				<section id="banner">
 					<header>
 						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
