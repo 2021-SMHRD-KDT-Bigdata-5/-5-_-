@@ -20,7 +20,8 @@
 		<!-- Header -->
 		<div id="header">
 			<nav align = 'right'>
-				<button type = "submit" value = "로그인" action="Login.jsp">로그인</a>
+			<a href="Login.jsp">
+				<input type = "submit" value = "로그인" src="Login.jsp"></a>
 			</nav>
 
 			<!-- Logo -->
