@@ -59,9 +59,7 @@
 							</h2>
 						</header>
 						<section class="wrapper style1">
-
 							<div class="container">
-
 								<div class="row">
 									<section class="col-6 col-12-narrower">
 										<div class="box post">

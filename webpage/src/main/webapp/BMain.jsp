@@ -14,6 +14,10 @@
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+<style>
+  h1#logo{
+   font-size:30px;}
+</style>
 <body class="is-preload">
 	<div id="page-wrapper">
 
@@ -26,8 +30,8 @@
 				</nav>
 			</form>
 			<!-- Logo -->
-			<h1>
-				<a href="BMain.jsp" id="logo">BossamKimChi</a>
+			<h1 id="logo">
+				<a href="BMain.jsp" >BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
