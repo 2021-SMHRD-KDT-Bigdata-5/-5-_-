@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div id="header">
-		<h1>OOOO ·Î±×ÀÎ</h1>
 
 </body>
 </html>
