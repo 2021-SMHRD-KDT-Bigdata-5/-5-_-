@@ -61,7 +61,7 @@
 						<div class="box highlight">
 							<a href="Graph.jsp"><i
 								class="icon solid major fa-paper-plane"></i></a>
-							<h3>봄배추공급량그래프</h3>
+							<h3>배추 공급량 현황</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
@@ -69,7 +69,7 @@
 						<div class="box highlight">
 							<a href="Graph.jsp"><i
 								class="icon solid major fa-paper-plane"></i></a>
-							<h3>봄추가경동향</h3>
+							<h3>금일배추 가격</h3>
 							<p>부가설명</p>
 						</div>
 					</section>

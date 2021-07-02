@@ -17,6 +17,18 @@
 <style>
   h1#logo{
    font-size:30px;}
+   select#area{
+ width: 150px;
+padding: .2em .2em;
+border: 3px solid #999;
+font-family: inherit;
+background: url('arrow.jpg') no-repeat 95% 50%;
+border-radius: 10px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+
+   }
 </style>
 <body class="is-preload">
 	<div id="page-wrapper">
@@ -49,8 +61,8 @@
 				<div id="content">
 					<article>
 						<header>
-							<h2>농가리스트<select>
-									<option value="">지역선택 ▼</option>
+							<h2>농가리스트<select id="area">
+									<option selected>지역선택 ▼</option>
 									<option value="서울경기">서울/경기</option>
 									<option value="강원">강원</option>
 									<option value="경남">경남</option>
