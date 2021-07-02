@@ -19,17 +19,16 @@
 
 		<!-- Header -->
 		<div id="header">
-			<nav align = 'right'>
-			<a href="Login.jsp">
-				<input type = "submit" value = "로그인" src="Login.jsp"></a>
-			</nav>
-
+			<!-- 로그인 -->
+			<form action="Login.jsp" method="post">
+				<nav align='right'>
+					<input type="submit" value="로그인">
+				</nav>
+			</form>
 			<!-- Logo -->
 			<h1>
 				<a href="BMain.jsp" id="logo">BossamKimChi</a>
 			</h1>
-			<!-- 로그인 -->
-			
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -56,22 +55,25 @@
 				<div class="row gtr-200">
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-						<a href="Graph.jsp"><i class="icon solid major fa-paper-plane"></i></a>
-						<h3>봄배추공급량그래프</h3>
+							<a href="Graph.jsp"><i
+								class="icon solid major fa-paper-plane"></i></a>
+							<h3>봄배추공급량그래프</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-							<a href="Graph.jsp"><i class="icon solid major fa-paper-plane"></i></a>
+							<a href="Graph.jsp"><i
+								class="icon solid major fa-paper-plane"></i></a>
 							<h3>봄추가경동향</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-							<a href="FarmList.jsp"><i class="icon solid major fa-paper-plane"></i></a>
-							<h3>신규농가소개</h3>
+							<a href="FarmList.jsp"><i
+								class="icon solid major fa-paper-plane"></i></a>
+							<h3>농가소개</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
