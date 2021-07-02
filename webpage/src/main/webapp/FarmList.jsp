@@ -14,6 +14,7 @@
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+stl
 <body class="is-preload">
 	<div id="page-wrapper">
 
@@ -22,16 +23,16 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">BossamKimChi</a>
+				<a href="BMain.jsp" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="BMain.html">Home</a></li>
-					<li><a href="Graph.html">통계</a></li>
-					<li class="current"><a href="FarmList.html">농가리스트</a></li>
-					<li><a href="Book.html">예약조회</a></li>
+					<li><a href="BMain.jsp">Home</a></li>
+					<li><a href="Graph.jsp">통계</a></li>
+					<li class="current"><a href="FarmList.jsp">농가리스트</a></li>
+					<li><a href="Book.jsp">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -53,8 +54,9 @@
 								<div class="row gtr-200">
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-paper-plane"></i>
-											<h3>딸기</h3>
+											<a href="FarmList_strawberry.jsp">
+											<img src="images/Str.jpg" alt="" /></a>
+											<h3 id="List-pic">딸기</h3>
 										</div>
 									</section>
 									<section class="col-4 col-12-narrower">

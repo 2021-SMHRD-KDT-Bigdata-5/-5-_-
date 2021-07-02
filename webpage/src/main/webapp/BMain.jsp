@@ -50,17 +50,17 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">BossamKimChi</a>
+				<a href="BMain.jsp" id="logo">BossamKimChi</a>
 			</h1>
 >>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li class="current"><a href="index.html">Home</a></li>
-					<li><a href="Graph.html">통계</a></li>
-					<li><a href="FarmList.html">농가리스트</a></li>
-					<li><a href="Book.html">예약조회</a></li>
+					<li class="current"><a href="BMain.jsp">Home</a></li>
+					<li><a href="Graph.jsp">통계</a></li>
+					<li><a href="FarmList.jsp">농가리스트</a></li>
+					<li><a href="Book.jsp">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -121,21 +121,21 @@
 				<div class="row gtr-200">
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-							<i class="icon solid major fa-paper-plane"></i>
-							<h3>봄배추공급량그래프</h3>
+						<a href="Graph.jsp"><i class="icon solid major fa-paper-plane"></i></a>
+						<h3>봄배추공급량그래프</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-							<i class="icon solid major fa-pencil-alt"></i>
+							<a href="Graph.jsp"><i class="icon solid major fa-paper-plane"></i></a>
 							<h3>봄추가경동향</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
 					<section class="col-4 col-12-narrower">
 						<div class="box highlight">
-							<i class="icon solid major fa-wrench"></i>
+							<a href="FarmList.jsp"><i class="icon solid major fa-paper-plane"></i></a>
 							<h3>신규농가소개</h3>
 							<p>부가설명</p>
 						</div>

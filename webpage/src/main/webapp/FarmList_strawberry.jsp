@@ -22,16 +22,16 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">BossamKimChi</a>
+				<a href="BMain.jsp" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
 					<ul>
-					<li><a href="BMain.html">Home</a></li>
-					<li><a href="Graph.html">통계</a></li>
-					<li class="current"><a href="FarmList.html">농가리스트</a></li>
-					<li><a href="Book.html">예약조회</a></li>
+					<li><a href="BMain.jsp">Home</a></li>
+					<li><a href="Graph.jsp">통계</a></li>
+					<li class="current"><a href="FarmList.jsp">농가리스트</a></li>
+					<li><a href="Book.jsp">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -48,11 +48,13 @@
 							<h2>농가리스트<select>
 									<option value="">지역선택 ▼</option>
 									<option value="서울경기">서울/경기</option>
-									<option value="충청도">충청도</option>
-									<option value="전라도">전라도</option>
-									<option value="경상도">경상도</option>
-									<option value="강원도">강원도</option>
-									<option value="제주도">제주도</option>
+									<option value="강원">강원</option>
+									<option value="경남">경남</option>
+									<option value="경북">경북</option>
+									<option value="전남">전남</option>
+									<option value="전북">전북</option>
+									<option value="충남">충남</option>
+									<option value="충북">충북</option>
 								</select>
 							</h2>
 						</header>
@@ -63,7 +65,7 @@
 								<div class="row">
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
-											<a href="#" class="image left"><img
+											<a href="FarmList1-3.jsp" class="image left"><img
 												src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
 												<h3>농가이름1</h3>
