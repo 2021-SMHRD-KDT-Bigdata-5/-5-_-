@@ -1,4 +1,4 @@
-@charset "EUC-KR";
+@charset "utf-8";
 
 *{
 	margin : 0;
@@ -6,18 +6,18 @@
 }
 
 .loginbox{
-	width : 330px;
-	heigth : 320px;
+	width : 700px;
+	heigth : 480px;
 	border : 1px solid # CCC;
 	margin : 20px;
 	padding : 25px 15px;
 	box-sizing : border-box;
 }
 
-.loginox h1{
+.loginbox h1{
 	width : 100px;
 	heigth : 40px;
-	font-size : 28px;
+	font-size : 40px;
 	color : #ff9900;
 	border-bottom : 1px solid #ff9900;
 	padding-left : 40px;
@@ -29,22 +29,22 @@
 }
 
 #loginid, #loginpw{
-	width : 200px;
-	heigth : 25px;
+	width : 300px;
+	heigth : 50px;
 	border : 1px solid #999;
 	box-sizing : border-box;
 	margin-bottom : 10px;
 }
 
 .labelid{
-	font-size : 14px;
+	font-size : 21px;
 	color : #666;
 	margin-left : 15px;
 	margin-right : 22px;
 }
 
 .labelpw{
-	font-size : 14px;
+	font-size : 21px;
 	color : #666;
 	margin-left : 15px;
 	margin-right : 8px;
@@ -52,7 +52,7 @@
 
 .search{
 	width : 100%;
-	heigth : 40px;
+	heigth :60px;
 	border-bottom : 1px dashed #999;
 	box-sizing : border-box;
 	line-heigth : 40px;
@@ -61,12 +61,12 @@
 }
 
 .search span{
-	font-size : 11px;
+	font-size : 16px;
 	color : #999;
 }
 
 .search a{
-	font-size : 12px;
+	font-size : 18px;
 	text-decoration : none;
 	background-color : #333;
 	color : #fff;
@@ -86,8 +86,8 @@
 }
 
 .btnwrap a{
-	width : 129px;
-	height : 35px;
+	width : 259px;
+	height : 45px;
 	background-color : #999;
 	text-decoration : none;
 	display : inline-block;
@@ -99,8 +99,8 @@
 }
 
 #loginbtn{
-	width : 129px;
-	height : 35px;
+	width : 259px;
+	height : 45px;
 	border : none;
 	background-color : #ff9900;
 	border-radius : 3px;
