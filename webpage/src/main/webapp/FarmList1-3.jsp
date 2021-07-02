@@ -22,63 +22,52 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">보쌈김치 <em>by HTML5 UP</em></a>
+				<a href="index.html" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Dropdown</a>
-						<ul>
-							<li><a href="#">Lorem dolor</a></li>
-							<li><a href="#">Magna phasellus</a></li>
-							<li><a href="#">Etiam sed tempus</a></li>
-							<li><a href="#">Submenu</a>
-								<ul>
-									<li><a href="#">Lorem dolor</a></li>
-									<li><a href="#">Phasellus magna</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam nisl</a></li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul></li>
-							<li><a href="#">Veroeros feugiat</a></li>
-						</ul></li>
-					<li><a href="통계.html">통계</a></li>
-					<li class="current"><a href="농가리스트.html">농가리스트</a></li>
-					<li><a href="right-sidebar.html">Right Sidebar</a></li>
+					<li><a href="BMain.html">Home</a></li>
+					<li><a href="Graph.html">통계</a></li>
+					<li class="current"><a href="FarmList.html">농가리스트</a></li>
+					<li><a href="Book.html">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
 
 		</div>
 
-		<!-- Posts -->
-
-
+		<!--Main-->
 		<section class="wrapper style1">
-
 			<div class="container">
-
-				<div class="row">
-					<section class="col-6 col-12-narrower">
-						<div class="box post">
-							<a href="#" class="image left"><img src="images/pic01.jpg"
-								alt="" /></a>
-							<div class="inner">
-								<h3>농가이름1</h3>
-								<p>농가정보</p>
+				<div id="content">
+					<article>
+						<header>
+							<h2>농가정보</h2>
+							<br>
+						</header>
+						<div class="row">
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic01.jpg"
+										alt="" /></a>
+									<div class="inner">
+										<h3>농가이름1</h3>
+										<p>농가정보</p>
+									</div>
+								</div>
+							</section>
+							<div class="col-12">
+		<!-- 달력표시 -->					
+								<textarea name="message" id="message" placeholder="Message"
+									rows="5"></textarea>
+		<!-- 달력에서 예약날짜선택후 예약버튼클릭시 예약 정보 달력에 반영 -->
+								<input type="submit" value="예약하기">
 							</div>
-						</div>
-					</section>
-					<div class="col-12">
-						<textarea name="message" id="message" placeholder="Message"
-							rows="5"></textarea>
-					<input type="submit" value="예약하기">
-					</div>
 
+						</div>
 				</div>
-			</div>
 		</section>
 
 

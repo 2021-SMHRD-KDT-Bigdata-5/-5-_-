@@ -22,31 +22,16 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">보쌈김치 <em>by HTML5 UP</em></a>
+				<a href="index.html" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Dropdown</a>
-						<ul>
-							<li><a href="#">Lorem dolor</a></li>
-							<li><a href="#">Magna phasellus</a></li>
-							<li><a href="#">Etiam sed tempus</a></li>
-							<li><a href="#">Submenu</a>
-								<ul>
-									<li><a href="#">Lorem dolor</a></li>
-									<li><a href="#">Phasellus magna</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam nisl</a></li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul></li>
-							<li><a href="#">Veroeros feugiat</a></li>
-						</ul></li>
-					<li><a href="통계.html">통계</a></li>
-					<li class="current"><a href="농가리스트.html">농가리스트</a></li>
-					<li><a href="right-sidebar.html">Right Sidebar</a></li>
+					<ul>
+					<li><a href="BMain.html">Home</a></li>
+					<li><a href="Graph.html">통계</a></li>
+					<li class="current"><a href="FarmList.html">농가리스트</a></li>
+					<li><a href="Book.html">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -60,13 +45,15 @@
 				<div id="content">
 					<article>
 						<header>
-							<h2>농가정보
-							<select>
-								<option value="">지역선택 ▼</option>
-								<option value="전라도">전라도</option>
-								<option value="경상도">경상도</option>
-								<option value="강원도">강원도</option>
-							</select>
+							<h2>농가리스트<select>
+									<option value="">지역선택 ▼</option>
+									<option value="서울경기">서울/경기</option>
+									<option value="충청도">충청도</option>
+									<option value="전라도">전라도</option>
+									<option value="경상도">경상도</option>
+									<option value="강원도">강원도</option>
+									<option value="제주도">제주도</option>
+								</select>
 							</h2>
 						</header>
 						<section class="wrapper style1">
@@ -84,7 +71,7 @@
 											</div>
 										</div>
 									</section>
-									
+
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
 											<a href="#" class="image left"><img

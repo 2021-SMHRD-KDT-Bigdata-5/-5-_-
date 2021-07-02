@@ -22,16 +22,16 @@
 
 			<!-- Logo -->
 			<h1>
-				<a href="index.html" id="logo">보쌈김치 <em>by HTML5 UP</em></a>
+				<a href="index.html" id="logo">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="통계.html">통계</a></li>
-					<li class="current"><a href="농가리스트.html">농가리스트</a></li>
-					<li><a href="right-sidebar.html">예약조회</a></li>
+					<li><a href="BMain.html">Home</a></li>
+					<li><a href="Graph.html">통계</a></li>
+					<li class="current"><a href="FarmList.html">농가리스트</a></li>
+					<li><a href="Book.html">예약조회</a></li>
 					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
@@ -44,7 +44,8 @@
 				<div id="content">
 					<article>
 						<header>
-							<h2>농가리스트</h2>
+<!-- 품목사진 클릭 시 해당품목 농가리스트(FarmList1-2.jsp) 페이지로 이동 -->			
+							<h2>품목리스트</h2>
 							<br>
 						</header>
 						<section class="wrapper style1">
