@@ -60,32 +60,37 @@
 									</section>
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-pencil-alt"></i>
-											<h3>배추</h3>
+											<a href="FarmList_Baechu.jsp">
+											<img src="images/Baeche.jpg" alt="" /></a>
+											<h3 id="List-pic">배추</h3>
 										</div>
 									</section>
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-wrench"></i>
-											<h3>무</h3>
+										<a href="FarmList_Apple.jsp">
+											<img src="images/Apple.jpg" alt="" /></a>
+											<h3 id="List-pic">사과</h3>
 										</div>
 									</section>
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-paper-plane"></i>
-											<h3>사과</h3>
+											<a href="FarmList_Mu.jsp">
+											<img src="images/Mu.jpg" alt="" /></a>
+											<h3 id="List-pic">무</h3>
 										</div>
 									</section>
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-pencil-alt"></i>
-											<h3>당근</h3>
+											<a href="FarmList_carrot.jsp">
+											<img src="images/carrot.jpg" alt="" /></a>
+											<h3 id="List-pic">당근</h3>
 										</div>
 									</section>
 									<section class="col-4 col-12-narrower">
 										<div class="box highlight">
-											<i class="icon solid major fa-wrench"></i>
-											<h3>바나나</h3>
+											<a href="FarmList_banana.jsp">
+											<img src="images/banana.jpg" alt="" /></a>
+											<h3 id="List-pic">당근</h3>
 										</div>
 									</section>
 								</div>
