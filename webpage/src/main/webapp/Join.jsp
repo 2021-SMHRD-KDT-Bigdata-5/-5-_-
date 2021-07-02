@@ -31,6 +31,7 @@
 				<td><input type="date"></td>
 			</tr>
 			<td colspan=2 align = "center"><input type="submit" id="jbtnb" value="가입하기"></td>
+			
 		</table>
 		
 	</form>

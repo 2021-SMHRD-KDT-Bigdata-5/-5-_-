@@ -26,7 +26,7 @@
 			</div>
 			<div class="btnwrap">
 				<a href="Join.jsp">회원가입</a> <input type="submit" id="loginbtn" value="로그인">
-				<label for="loginbtn">로그인버튼</label>
+				<label for="loginbtn">로그인버튼</label> 
 			</div>
 		</form>
 	</div>
