@@ -64,8 +64,8 @@ public class memberDAO {
          psmt.setString(2,member.getPw());
          psmt.setString(3,member.getName());
          psmt.setString(4,member.getNum());
-         psmt.setString(5,member.getAddress());
-         psmt.setString(6,member.getSb());
+         psmt.setString(5,member.getAdd());
+         psmt.setString(6,member.getA());
       
          cnt = psmt.executeUpdate();
                
