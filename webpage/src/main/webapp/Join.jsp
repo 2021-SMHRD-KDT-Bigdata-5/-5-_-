@@ -27,17 +27,8 @@
 					</tr>
 					<tr>
 						<td><label for="joinNum" class="labelNum">연락처</td>
-						<td><input type="text" id="joinNum" name="num"></td>
+						<td><input type="text" id="joinNum" name="tel"></td>
 					</tr>
-					<tr>
-						<td><label for="joinAdd" class="labelAdd">주소</td>
-						<td><input type="text" id="joinAddress" name="add"></td>
-					</tr>
-					<tr>
-						<td><input type="radio" id="rb" name="a" value="buy">소비자</td>
-						<td><input type="radio" id="rb" name="a" value="sell">판매자</td>
-					</tr>
-					<tr>
 						<td colspan=2 align="center"><input type="submit" id="jbtnb"
 							value="가입하기"></td>
 					</tr>

@@ -1,6 +1,11 @@
+<%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<<<<<<< HEAD
 <% memberDTO member = new memberDTO() %>
+=======
+<% memberDTO member = (memberDTO)session.getAttribute("member");%>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 <!DOCTYPE HTML>
 
 <html>

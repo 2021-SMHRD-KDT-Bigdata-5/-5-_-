@@ -57,7 +57,7 @@ public class memberDAO {
       try {
          connection();
          
-         String sql = "insert into member values (?,?,?,?,?,?)";
+         String sql = "insert into member values (?,?,?,?)";
                
          psmt = conn.prepareStatement(sql);
          psmt.setString(1,member.getEmail());
@@ -78,7 +78,7 @@ public class memberDAO {
       return cnt;
    }
 
-   public memberDTO loginCheck(String id, String pw) {
+   public memberDTO loginCheck(String email, String pw) {
 
 	      
 	      memberDTO member = null;
@@ -87,10 +87,10 @@ public class memberDAO {
 	         
 	         connection();
 	         
-	         String sql = "select * from member where id=? and pw=?";
+	         String sql = "select * from member where email=? and pw=?";
 	         
 	         psmt = conn.prepareStatement(sql);
-	         psmt.setString(1,id);
+	         psmt.setString(1,email);
 	         psmt.setString(2,pw);
 	         
 	         rs = psmt.executeQuery();
