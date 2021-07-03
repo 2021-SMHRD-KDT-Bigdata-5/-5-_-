@@ -1,16 +1,16 @@
 <%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<<<<<<< HEAD
+<% memberDTO member = new memberDTO() %>
+=======
 <% memberDTO member = (memberDTO)session.getAttribute("member");%>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 <!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 <head>
-<title>Arcana by HTML5 UP</title>
+<title>보쌈김치</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
