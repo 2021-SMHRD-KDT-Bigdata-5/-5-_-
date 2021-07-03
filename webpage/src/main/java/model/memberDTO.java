@@ -1,26 +1,23 @@
 package model;
 
-public class memberDTO {
-	
-	private String id;
+public class memberDTO 
+{
+	private String email;
 	private String pw;
 	private String name;
-	private String num;
-	private String add;
-	private String a;
-	public memberDTO(String id, String pw, String name, String num, String add, String a) {
-		this.id = id;
+	private String tel;
+	public memberDTO(String email, String pw, String name, String tel) {
+		super();
+		this.email = email;
 		this.pw = pw;
 		this.name = name;
-		this.num = num;
-		this.add = add;
-		this.a = a;
+		this.tel = tel;
 	}
-	public String getId() {
-		return id;
+	public String getEmail() {
+		return email;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getPw() {
 		return pw;
@@ -34,23 +31,11 @@ public class memberDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getNum() {
-		return num;
+	public String getTel() {
+		return tel;
 	}
-	public void setNum(String num) {
-		this.num = num;
-	}
-	public String getAdd() {
-		return add;
-	}
-	public void setAdd(String add) {
-		this.add = add;
-	}
-	public String getA() {
-		return a;
-	}
-	public void setA(String a) {
-		this.a = a;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
 
 	

@@ -20,24 +20,21 @@ public class JoinCon extends HttpServlet {
 		
 		request.setCharacterEncoding("utf-8");
 		
-		String id = request.getParameter("id");
+		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 		String name = request.getParameter("name");
-		String num = request.getParameter("num");
-		String add = request.getParameter("add");
-		String a = request.getParameter("a");
-		
+		String tel = request.getParameter("tel");
 		memberDAO dao = new memberDAO();
-		memberDTO member = new memberDTO(id,pw,name,num,add,a);
+		memberDTO member = new memberDTO(email,pw,name,tel);
 		
 		int cnt = dao.join(member);
 		
 		if(cnt > 0) {
-			request.setAttribute("id", id);
+			request.setAttribute("email", email);
 			RequestDispatcher dispatcher = request.getRequestDispatcher("JoinSuccess.jsp");
 			dispatcher.forward(request, response);
 		}else {
-			response.sendRedirect("join.jsp");
+			response.sendRedirect("Join.jsp");
 		}
 	}
 

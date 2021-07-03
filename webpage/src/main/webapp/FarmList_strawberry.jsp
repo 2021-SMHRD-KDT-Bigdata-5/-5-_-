@@ -27,7 +27,6 @@ border-radius: 10px;
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
-
    }
 </style>
 <body class="is-preload">

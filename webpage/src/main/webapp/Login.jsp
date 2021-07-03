@@ -13,7 +13,7 @@
 <!-- ㅇㅇㄹㅇㄹㄴㅇㄹ -->
 	<div class="loginbox">
 		<h1>로그인</h1>
-		<form action="BMain.jsp">
+		<form action="LoginCon">
 			<label for="loginid" class="labelid" align="left">아이디</label>
 			<input type="text" id="loginid"><br /> 
 			<label for="loginpw" class="labelpw" align="right">패스워드</label>

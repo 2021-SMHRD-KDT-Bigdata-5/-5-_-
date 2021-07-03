@@ -57,15 +57,13 @@ public class memberDAO {
       try {
          connection();
          
-         String sql = "insert into member values (?,?,?,?,?,?)";
+         String sql = "insert into member values (?,?,?,?)";
                
          psmt = conn.prepareStatement(sql);
-         psmt.setString(1,member.getId());
+         psmt.setString(1,member.getEmail());
          psmt.setString(2,member.getPw());
          psmt.setString(3,member.getName());
-         psmt.setString(4,member.getNum());
-         psmt.setString(5,member.getAdd());
-         psmt.setString(6,member.getA());
+         psmt.setString(4,member.getTel());
       
          cnt = psmt.executeUpdate();
                
@@ -79,5 +77,73 @@ public class memberDAO {
       
       return cnt;
    }
+
+   public memberDTO loginCheck(String email, String pw) {
+
+	      
+	      memberDTO member = null;
+	      
+	      try {
+	         
+	         connection();
+	         
+	         String sql = "select * from member where email=? and pw=?";
+	         
+	         psmt = conn.prepareStatement(sql);
+	         psmt.setString(1,email);
+	         psmt.setString(2,pw);
+	         
+	         rs = psmt.executeQuery();
+	         
+	         if(rs.next()) {
+	            String getEmail = rs.getString(1);
+	            String getName = rs.getString(3);
+	            String getNum = rs.getString(4);
+	         
+	            member = new memberDTO(getEmail, null, getName, getNum);                     
+	         }
+	         
+	      } catch (SQLException e) {         
+	         e.printStackTrace();
+	      }finally {
+	         close();
+	      }
+	      
+	      return member;
+	      
+	   }
+
+
+   public Boolean idCheck(String email) {
+	      
+	      boolean check = false;
+	   
+	      try {
+	         
+	         connection();
+	         
+	         String sql = "select * from member where email=?";
+	         
+	         psmt = conn.prepareStatement(sql);
+	         psmt.setString(1,email);
+	         
+	         rs = psmt.executeQuery();
+	         
+	         if(rs.next()) {
+	            check = true;
+	         }
+	         else {
+	            check = false;
+	         }
+	         
+	      } catch (SQLException e) {         
+	         e.printStackTrace();
+	      }finally {
+	         close();
+	      }
+	      
+	      return check;
+	      
+	   }
 
 }
