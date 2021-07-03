@@ -4,37 +4,48 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="assets/css/Join.css" />
 <title>Insert title here</title>
 </head>
 <body>
-	<h1 align="center">회원가입</h1>
-	<form action="Login.jsp">
-		<table align="center">
-			<tr>
-				<td><label for="joinid" class="labelid">아이디</label></td>
-				<td><input type="text" id="joinId"><input type="button" value="중복확인"></td>
-			</tr>
-			<tr>
-				<td><label for="joinpw" class="labelpw">패스워드</label></td>
-				<td><input type="password" id="joinPw"></td>
-			</tr>
-			<tr>
-				<td><label for="joinName" class="labelName">이름</td>
-				<td><input type="text" id="name"></td>
-			</tr>
-			<tr>
-				<td><label for="joinNum" class="labelNum">연락처</td>
-				<td><input type="text"></td>
-			</tr>
-			<tr>
-				<td><label for="joinBrith" class="labelBrith">생년월일</td>
-				<td><input type="date"></td>
-			</tr>
-			<td colspan=2 align = "center"><input type="submit" id="jbtnb" value="가입하기"></td>
-			
-		</table>
-		
-	</form>
+		<div class="Joinbox">
+			<h1>회원가입</h1>
+			<form action="Login.jsp">
+				<table class="jt">
+					<tr>
+						<td><label for="joinId" class="labelid">아이디</label></td>
+						<td><input type="text" id="joinId"><input
+							type="button" value="중복확인"></td>
+					</tr>
+					<tr>
+						<td><label for="joinPw" class="labelpw">패스워드</label></td>
+						<td><input type="password" id="joinPw"></td>
+					</tr>
+					<tr>
+						<td><label for="joinName" class="labelName">이름</td>
+						<td><input type="text" id="joinName"></td>
+					</tr>
+					<tr>
+						<td><label for="joinNum" class="labelNum">연락처</td>
+						<td><input type="text" id="joinNum"></td>
+					</tr>
+					<tr>
+						<td><label for="joinAdd" class="labelAdd">주소</td>
+						<td><input type="text" id="joinAdd"></td>
+					</tr>
+					<tr>
+						<td><input type="radio" class="rb" name="a" value="buy">소비자</td>
+						<td><input type="radio" class="rb" name="a" value="sell">판매자</td>
+					</tr>
+					<tr>
+						<td colspan=2 align="center"><input type="submit" id="jbtnb"
+							value="가입하기"></td>
+					</tr>
 
+
+				</table>
+
+			</form>
+		</div>
 </body>
 </html>
