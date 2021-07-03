@@ -14,6 +14,10 @@
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+<style>
+  h1#logo{
+   font-size:30px;}
+</style>
 <body class="is-preload">
 	<div id="page-wrapper">
 
@@ -31,8 +35,8 @@
 					</div>				
 			</form>
 			<!-- Logo -->
-			<h1>
-				<a href="BMain.jsp" id="logo">BossamKimChi</a>
+			<h1 id="logo">
+				<a href="BMain.jsp" >BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
@@ -62,7 +66,7 @@
 						<div class="box highlight">
 							<a href="Graph.jsp"><i
 								class="icon solid major fa-paper-plane"></i></a>
-							<h3>봄배추공급량그래프</h3>
+							<h3>배추 공급량 현황</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
@@ -70,7 +74,7 @@
 						<div class="box highlight">
 							<a href="Graph.jsp"><i
 								class="icon solid major fa-paper-plane"></i></a>
-							<h3>봄추가경동향</h3>
+							<h3>금일배추 가격</h3>
 							<p>부가설명</p>
 						</div>
 					</section>
