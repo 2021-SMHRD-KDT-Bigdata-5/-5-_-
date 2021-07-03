@@ -27,8 +27,9 @@
 			<%if(member != null){ %>
         	     <a href="update.jsp">정보수정</a>
        	     	 <a href="logout.jsp">로그아웃</a><br>
-			<% } %>
+			<% }else{ %>
             	 <a href="Login.jsp">로그인</a>
+            	 <%} %>
 			</nav>
 			<form action="LoginSeller.jsp" method="post">
 					<div class="row">
