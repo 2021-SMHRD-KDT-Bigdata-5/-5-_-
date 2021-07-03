@@ -1,14 +1,21 @@
+<%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
+<<<<<<< HEAD
 	pageEncoding="utf-8"%>
+<<<<<<< HEAD
+=======
+<% memberDTO member = (memberDTO)session.getAttribute("member");%>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
+=======
+	pageEncoding="utf-8"%>
+<% memberDTO member = (memberDTO)session.getAttribute("member"); %>
+
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 <!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 <head>
-<title>Arcana by HTML5 UP</title>
+<title>보쌈김치</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -24,12 +31,29 @@
 		<!-- Header -->
 		<div id="header">
 			<!-- 로그인 -->
-			<form action="Login.jsp" method="post">
+<<<<<<< HEAD
+			<% if(member!=null){ %>
+					<input type="submit" value="정보수정">
+					<input type="submit" value="로그아웃">
+				<%}%>
+								
+				<form action="Login.jsp" method="post">
 				<nav align='right'>
 					<input type="submit" value="로그인">
 				</nav>
-			</form>	
-					<form action="LoginSeller.jsp" method="post">
+				</form>	
+					
+=======
+			<nav align="right">
+			<%if(member != null){ %>
+        	     <a href="update.jsp">정보수정</a>
+       	     	 <a href="logout.jsp">로그아웃</a><br>
+			<% }else{ %>
+            	 <a href="Login.jsp">로그인</a>
+            	 <%} %>
+			</nav>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
+			<form action="LoginSeller.jsp" method="post">
 					<div class="row">
 					<input type="submit" value="입점신청">
 					</div>				
