@@ -1,39 +1,81 @@
 @charset "utf-8";
 
-*{
-	margin : 0;
-	padding : 0;
+* {
+   margin: 0;
+   padding: 0;
 }
 
-
-.Joinbox{
-	width : 50%;
-	height : 100%;
-	background-color : #EAEAEA;
-	margin-left : 25%;
+.Joinbox {
+   width: 50%;
+   height: 100%;
+   background-color: #EAEAEA;
+   margin-left: 25%;
 }
 
-.Joinbox h1{
-	width : 660px;
-	heigth : 50px;
-	font-size : 40px;
-	color : #ff9900;
-	text-align : center;
-	border-bottom : 2px solid #ff9900;
-	box-sizing : 100%;
-	padding-top : 5%;
-	margin-bottom : 1%;
+.Joinbox h1 {
+   width: 660px;
+   heigth: 50px;
+   font-size: 40px;
+   color: #ff9900;
+   padding-top: 5%;
+   margin-bottom: 1%;
+   padding-left : 40%;
+}
+/* 회원가입밑 밑줄 */
+.Joinbox hr{
+   background-color: #ff9900;
+   padding-bottom: 1%;
+   margin-bottom: 3%;
+   border : 0.1px;
+}
+.jt {
+   margin-left: 15%;
+   margin-right: 3%;
 }
 
-.jt{
-	margin-left: 25%;
+#joinId, #joinPw, #joinName, #joinTel{
+   width: 70%;
+   height: 50px;
+   line-height: 29px;
+   background: #fff;
+   font-size: 50px;
+   margin-bottom: 10px;
 }
 
-#joinId, #joinPw, #joinName, #joinNum{
-	width: 70%;
-    height: 50px;
-    line-height: 29px;
-    background: #fff;
-    font-size: 20px;
-    margin-bottom : 10px;
+/* 가입하기 버튼 */
+#jbtnb {
+   background-color: #ff9900;
+   color: white;
+   width: 100%;
+   height: 45px;
+   font-size: 15px;
+   font-weight: 700;
+   border-radius: 6px;
+   border: 0;
+   outline: 0;
 }
+
+/* 중복확인 버튼 */
+#dubbleChe {
+   background-color: #ff9900;
+   color: white;
+   width: 70%;
+   height: 25px;
+   font-size: 15px;
+   font-weight: 700;
+   border-radius: 6px;
+   border: 0;
+   outline: 0;
+}
+/* 회원가입 아이디,패스워드 라벨 */
+#Lbel {
+   width: 60px;
+   height: 80px;
+   margin: 19px 0 8px;
+   font-size: 14px;
+   font-weight: 700;
+}
+/* 회원가입로고 */
+
+
+
