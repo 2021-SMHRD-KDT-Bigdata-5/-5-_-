@@ -14,20 +14,20 @@
 			<form action="JoinCon" method="post">
 				<table class="jt">
 					<tr>
-						<td><label for="joinId" class="labelid">아이디</label></td>
+						<td><label for="joinId" class="lbel">아이디</label></td>
 						<td><input type="text" id="joinId" name="id"><input
 							type="button" value="중복확인"></td>
 					</tr>
 					<tr>
-						<td><label for="joinPw" class="labelpw">패스워드</label></td>
+						<td><label for="joinPw" class="lbel">패스워드</label></td>
 						<td><input type="password" id="joinPw" name="pw"></td>
 					</tr>
 					<tr>
-						<td><label for="joinName" class="labelName">이름</td>
+						<td><label for="joinName" class="lbel">이름</td>
 						<td><input type="text" id="joinName" name="name"></td>
 					</tr>
 					<tr>
-						<td><label for="joinTel" class="labelNum">연락처</td>
+						<td><label for="joinTel" class="lbel">연락처</td>
 						<td><input type="text" id="joinTel" name="tel"></td>
 					</tr>
 					<tr>
