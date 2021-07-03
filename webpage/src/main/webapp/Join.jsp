@@ -14,7 +14,7 @@
 				<table class="jt">
 					<tr>
 						<td><label for="joinId" class="labelid">아이디</label></td>
-						<td><input type="text" id="joinId" name="id"><input
+						<td><input type="text" id="joinId" name="email"><input
 							type="button" value="중복확인"></td>
 					</tr>
 					<tr>

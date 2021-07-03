@@ -17,11 +17,11 @@ public class LoginCon extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		String id = request.getParameter("id");
+		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 
 		memberDAO dao = new memberDAO();
-		memberDTO member = dao.loginCheck(id, pw);
+		memberDTO member = dao.loginCheck(email, pw);
 
 		// member객체에 값 판단
 		if (member != null) { // member정보가 DB에 있다면
