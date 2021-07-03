@@ -60,12 +60,10 @@ public class memberDAO {
          String sql = "insert into member values (?,?,?,?,?,?)";
                
          psmt = conn.prepareStatement(sql);
-         psmt.setString(1,member.getId());
+         psmt.setString(1,member.getEmail());
          psmt.setString(2,member.getPw());
          psmt.setString(3,member.getName());
-         psmt.setString(4,member.getNum());
-         psmt.setString(5,member.getAdd());
-         psmt.setString(6,member.getA());
+         psmt.setString(4,member.getTel());
       
          cnt = psmt.executeUpdate();
                
@@ -98,13 +96,11 @@ public class memberDAO {
 	         rs = psmt.executeQuery();
 	         
 	         if(rs.next()) {
-	            String getId = rs.getString(1);
+	            String getEmail = rs.getString(1);
 	            String getName = rs.getString(3);
 	            String getNum = rs.getString(4);
-	            String getAdd = rs.getString(5);
-	            String getA = rs.getString(6);
 	         
-	            member = new memberDTO(getId, null, getName, getNum,getAdd,getA);                     
+	            member = new memberDTO(getEmail, null, getName, getNum);                     
 	         }
 	         
 	      } catch (SQLException e) {         
@@ -118,7 +114,7 @@ public class memberDAO {
 	   }
 
 
-   public Boolean idCheck(String id) {
+   public Boolean idCheck(String email) {
 	      
 	      boolean check = false;
 	   
@@ -126,10 +122,10 @@ public class memberDAO {
 	         
 	         connection();
 	         
-	         String sql = "select * from member where id=?";
+	         String sql = "select * from member where email=?";
 	         
 	         psmt = conn.prepareStatement(sql);
-	         psmt.setString(1,id);
+	         psmt.setString(1,email);
 	         
 	         rs = psmt.executeQuery();
 	         

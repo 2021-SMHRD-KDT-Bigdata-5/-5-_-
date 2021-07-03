@@ -20,7 +20,7 @@ public class JoinCon extends HttpServlet {
 		
 		request.setCharacterEncoding("utf-8");
 		
-		String id = request.getParameter("id");
+		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 		String name = request.getParameter("name");
 		String num = request.getParameter("num");
@@ -28,12 +28,12 @@ public class JoinCon extends HttpServlet {
 		String a = request.getParameter("a");
 		
 		memberDAO dao = new memberDAO();
-		memberDTO member = new memberDTO(id,pw,name,num,add,a);
+		memberDTO member = new memberDTO(email,pw,name,num);
 		
 		int cnt = dao.join(member);
 		
 		if(cnt > 0) {
-			request.setAttribute("id", id);
+			request.setAttribute("email", email);
 			RequestDispatcher dispatcher = request.getRequestDispatcher("JoinSuccess.jsp");
 			dispatcher.forward(request, response);
 		}else {
