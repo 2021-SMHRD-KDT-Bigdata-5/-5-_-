@@ -13,6 +13,11 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
+<style>
+table {
+  width: 1500px;
+}
+</style>
 </head>
 <body class="is-preload">
 	<div id="page-wrapper">
@@ -52,26 +57,29 @@
 							<div class="container">
 
 								<div class="row">
+								
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
+										<legend><h3>예약자1</h3></legend>
 											<a href="FarmList1-3.jsp" class="image left"><img
 												src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
 											<table>
 							
 							<tr>
-								<td>예약날짜</td>
-								<td>예약자이름</td>
-								<td>전화번호</td>	
-								<td>방문시간</td>						
-							</tr>
-						
 							
+								<td><h6>예약날짜</h6></td>
+								<td><h6>방문시간</h6></td>	
+								<td><h6>예약자이름</h6></td>
+								<td><h6>전화번호</h6></td>							
+							</tr>							
+						
 							<tr>
 							<td>7.2</td>
+							<td>14:00</td>					
 							<td>이호준</td>
 							<td>010-9688-9232</td>
-							<td>14:00</td>		
+									
 							</tr>							
 						</table>
 											</div>
@@ -81,24 +89,26 @@
 								<div class="row">
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
+										<legend><h3>예약자2</h3></legend>
 											<a href="#" class="image left"><img
 												src="images/pic02.jpg" alt="" /></a>
 											<div class="inner">
 												<table>
 							
 							<tr>
-								<td>예약날짜</td>
-								<td>예약자이름</td>
-								<td>전화번호</td>	
-								<td>방문시간</td>						
+								<td><h6>예약날짜</h6></td>
+								<td><h6>방문시간</h6></td>	
+								<td><h6>예약자이름</h6></td>
+								<td><h6>전화번호</h6></td>							
 							</tr>
 					
 							
 							<tr>
 							<td>7.1</td>
+							<td>10:00</td>
 							<td>권누리</td>
 							<td>010-9688-9232</td>
-							<td>14:00</td>		
+									
 							</tr>							
 						</table>
 											</div>
@@ -108,6 +118,7 @@
 								<div class="row">
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
+										<legend><h3>예약자3</h3></legend>
 											<a href="#" class="image left"><img
 												src="images/pic03.jpg" alt="" /></a>
 											<div class="inner">
@@ -115,18 +126,20 @@
 												<table>
 							
 							<tr>
-								<td>예약날짜</td>
-								<td>예약자이름</td>
-								<td>전화번호</td>	
-								<td>방문시간</td>						
+								<td><h6>예약날짜</h6></td>
+								<td><h6>방문시간</h6></td>	
+								<td><h6>예약자이름</h6></td>
+								<td><h6>전화번호</h6></td>	
+													
 							</tr>
 							
 							
 							<tr>
 							<td>7.13</td>
+							<td>15:00</td>
 							<td>이찬</td>
 							<td>010-9688-9232</td>
-							<td>14:00</td>		
+									
 							</tr>							
 						</table>
 											</div>
@@ -137,6 +150,7 @@
 								<div class="row">
 									<section class="col-6 col-12-narrower">
 										<div class="box post">
+										<legend><h3>예약자4</h3></legend>
 											<a href="#" class="image left"><img
 												src="images/pic04.jpg" alt="" /></a>
 											<div class="inner">
@@ -144,18 +158,19 @@
 												<table>
 							
 							<tr>
-								<td>예약날짜</td>
-								<td>예약자이름</td>
-								<td>전화번호</td>	
-								<td>방문시간</td>						
+								<td><h6>예약날짜</h6></td>
+								<td><h6>방문시간</h6></td>	
+								<td><h6>예약자이름</h6></td>
+								<td><h6>전화번호</h6></td>						
 							</tr>
 							
 							
 							<tr>
 							<td>7.3</td>
+							<td>12:00</td>
 							<td>최현준</td>
 							<td>010-9688-9232</td>
-							<td>14:00</td>		
+									
 							</tr>							
 						</table>
 											</div>
