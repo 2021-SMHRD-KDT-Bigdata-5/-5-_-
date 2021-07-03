@@ -80,4 +80,74 @@ public class memberDAO {
       return cnt;
    }
 
+   public memberDTO loginCheck(String id, String pw) {
+
+	      
+	      memberDTO member = null;
+	      
+	      try {
+	         
+	         connection();
+	         
+	         String sql = "select * from member where id=? and pw=?";
+	         
+	         psmt = conn.prepareStatement(sql);
+	         psmt.setString(1,id);
+	         psmt.setString(2,pw);
+	         
+	         rs = psmt.executeQuery();
+	         
+	         if(rs.next()) {
+	            String getId = rs.getString(1);
+	            String getName = rs.getString(3);
+	            String getNum = rs.getString(4);
+	            String getAdd = rs.getString(5);
+	            String getA = rs.getString(6);
+	         
+	            member = new memberDTO(getId, null, getName, getNum,getAdd,getA);                     
+	         }
+	         
+	      } catch (SQLException e) {         
+	         e.printStackTrace();
+	      }finally {
+	         close();
+	      }
+	      
+	      return member;
+	      
+	   }
+
+
+   public Boolean idCheck(String id) {
+	      
+	      boolean check = false;
+	   
+	      try {
+	         
+	         connection();
+	         
+	         String sql = "select * from member where id=?";
+	         
+	         psmt = conn.prepareStatement(sql);
+	         psmt.setString(1,id);
+	         
+	         rs = psmt.executeQuery();
+	         
+	         if(rs.next()) {
+	            check = true;
+	         }
+	         else {
+	            check = false;
+	         }
+	         
+	      } catch (SQLException e) {         
+	         e.printStackTrace();
+	      }finally {
+	         close();
+	      }
+	      
+	      return check;
+	      
+	   }
+
 }
