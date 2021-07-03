@@ -1,25 +1,30 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<title>Bossam Kimchi</title>
+<link rel="stylesheet" href="assets/css/joinsuccess.css" />
 </head>
 <body>
 	<div id="wrapper">
+		<h1>환영합니다!</h1>
 		<!-- Menu -->
 		<nav id="Update">
-			<ul class="actions vertical">
-				<li><h1>환영합니다!</h1></li>
-				<li>회원가입을 축하합니다.</li>
+			<p align="center">
+				회원가입을 축하합니다.<br>
 				<!-- request영역에 저장된 회원정보 중 이메일을 출력하시오. -->
-				<li>메세지시스템의 새로운 아이디는 <%=request.getAttribute("id") %>입니다.
-				</li>
-				<li><button onclick='location.href=BMain.jsp"'>시작하기</button></li>
-			</ul>
+				메세지시스템의 새로운 아이디는
+				<%=request.getAttribute("id")%>입니다.
+			</p>
+			<div class="search"></div>
+			<div class="btnwrap">
+				<a href="BMain.jsp">메인으로</a>
+				
+				
+			</div>
 		</nav>
 	</div>
-
 </body>
 </html>
