@@ -13,14 +13,11 @@
 			<form action="JoinCon" method="post">
 				<table class="jt">
 					<tr>
-<<<<<<< HEAD
 						<td><label for="joinId" class="labelid"></label></td>
-						<td><input type="text" id="joinId" name="email" placeholder = "이메일"><input
-=======
+						<td><input type="text" id="joinId" name="email" placeholder = "이메일">
 						<td><label for="joinId" class="labelid">아이디</label></td>
-						<td><input type="text" id="joinId" name="email"><input
->>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
-							type="button" value="중복확인"></td>
+						<td><input type="text" id="joinId" name="email">
+						<inputtype="button" value="중복확인"></td>
 					</tr>
 					<tr>
 						<td><label for="joinPw" class="labelpw"></label></td>
