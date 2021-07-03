@@ -13,21 +13,21 @@
 			<form action="JoinCon" method="post">
 				<table class="jt">
 					<tr>
-						<td><label for="joinId" class="labelid">아이디</label></td>
-						<td><input type="text" id="joinId" name="id"><input
+						<td><label for="joinId" class="labelid"></label></td>
+						<td><input type="text" id="joinId" name="email" placeholder = "이메일"><input
 							type="button" value="중복확인"></td>
 					</tr>
 					<tr>
-						<td><label for="joinPw" class="labelpw">패스워드</label></td>
-						<td><input type="password" id="joinPw" name="pw"></td>
+						<td><label for="joinPw" class="labelpw"></label></td>
+						<td><input type="text" id="joinPw" name="name" placeholder = "이름"></td>
 					</tr>
 					<tr>
-						<td><label for="joinName" class="labelName">이름</td>
-						<td><input type="text" id="joinName" name="name"></td>
+						<td><label for="joinName" class="labelName"></td>
+						<td><input type="password" id="joinName" name="name" placeholder = "패스워드"></td>
 					</tr>
 					<tr>
-						<td><label for="joinNum" class="labelNum">연락처</td>
-						<td><input type="text" id="joinNum" name="tel"></td>
+						<td><label for="joinNum" class="labelNum"></td>
+						<td><input type="text" id="joinNum" name="tel" placeholder = "전화번호"></td>
 					</tr>
 						<td colspan=2 align="center"><input type="submit" id="jbtnb"
 							value="가입하기"></td>

@@ -21,11 +21,12 @@ public class JoinCon extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		
 		String email = request.getParameter("email");
-		String pw = request.getParameter("pw");
 		String name = request.getParameter("name");
+		String pw = request.getParameter("pw");
 		String tel = request.getParameter("tel");
+		
 		memberDAO dao = new memberDAO();
-		memberDTO member = new memberDTO(email,pw,name,tel);
+		memberDTO member = new memberDTO(email,name,pw,tel);
 		
 		int cnt = dao.join(member);
 		

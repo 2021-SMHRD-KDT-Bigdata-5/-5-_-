@@ -2,7 +2,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <<<<<<< HEAD
-<% memberDTO member = new memberDTO() %>
 =======
 <% memberDTO member = (memberDTO)session.getAttribute("member");%>
 >>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
@@ -29,14 +28,14 @@
 			<% if(member!=null){ %>
 					<input type="submit" value="정보수정">
 					<input type="submit" value="로그아웃">
-				<%} else{ %>
+				<%}%>
 								
 				<form action="Login.jsp" method="post">
 				<nav align='right'>
 					<input type="submit" value="로그인">
 				</nav>
 				</form>	
-				<% } %>	
+					
 			<form action="LoginSeller.jsp" method="post">
 					<div class="row">
 					<input type="submit" value="입점신청">
