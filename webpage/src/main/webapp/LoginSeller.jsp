@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="loginbox">
-		<h1>로그인</h1>
+		<h1>농가로그인</h1>
 		<form action="BMain.jsp">
 			<label for="loginid" class="labelid">아이디</label>
 			<input type="text" id="loginid"><br /> 
