@@ -1,6 +1,7 @@
+<%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
-<% memberDTO member = memberDTO %>
+<% memberDTO member = (memberDTO)session.getAttribute("member");%>
 <!DOCTYPE HTML>
 <!--
 	Arcana by HTML5 UP
