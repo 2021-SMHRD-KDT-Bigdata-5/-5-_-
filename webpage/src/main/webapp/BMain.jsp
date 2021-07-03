@@ -1,9 +1,15 @@
 <%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
+<<<<<<< HEAD
 	pageEncoding="utf-8"%>
 <<<<<<< HEAD
 =======
 <% memberDTO member = (memberDTO)session.getAttribute("member");%>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
+=======
+	pageEncoding="utf-8"%>
+<% memberDTO member = (memberDTO)session.getAttribute("member"); %>
+
 >>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 <!DOCTYPE HTML>
 
@@ -25,6 +31,7 @@
 		<!-- Header -->
 		<div id="header">
 			<!-- 로그인 -->
+<<<<<<< HEAD
 			<% if(member!=null){ %>
 					<input type="submit" value="정보수정">
 					<input type="submit" value="로그아웃">
@@ -36,6 +43,16 @@
 				</nav>
 				</form>	
 					
+=======
+			<nav align="right">
+			<%if(member != null){ %>
+        	     <a href="update.jsp">정보수정</a>
+       	     	 <a href="logout.jsp">로그아웃</a><br>
+			<% }else{ %>
+            	 <a href="Login.jsp">로그인</a>
+            	 <%} %>
+			</nav>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 			<form action="LoginSeller.jsp" method="post">
 					<div class="row">
 					<input type="submit" value="입점신청">

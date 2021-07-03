@@ -14,10 +14,10 @@
 	<div class="loginbox">
 		<h1>로그인</h1>
 		<form action="LoginCon">
-			<label for="loginid" class="labelid" align="left">아이디</label>
-			<input type="text" id="loginid"><br /> 
-			<label for="loginpw" class="labelpw" align="right">패스워드</label>
-			<input type="password" id="loginpw">
+			<label for="id" class="labelid" align="left">아이디</label>
+			<input type="text" name="email"><br /> 
+			<label for="pw" class="labelpw" align="right">패스워드</label>
+			<input type="password" name="pw">
 			<div class="chk">
 				<input type="checkbox" id="idchk"> <label for="idchk">아이디 저장</label>
 			    <input type="checkbox" id="pwchk"> <label for="pwchk">비밀번호 저장</label>

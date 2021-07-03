@@ -99,9 +99,9 @@ public class memberDAO {
 	         if(rs.next()) {
 	            String getEmail = rs.getString(1);
 	            String getName = rs.getString(3);
-	            String getNum = rs.getString(4);
+	            String getTel = rs.getString(4);
 	         
-	            member = new memberDTO(getEmail, null, getName, getNum);                     
+	            member = new memberDTO(getEmail, null, getName, getTel);                     
 	         }
 	         
 	      } catch (SQLException e) {         
