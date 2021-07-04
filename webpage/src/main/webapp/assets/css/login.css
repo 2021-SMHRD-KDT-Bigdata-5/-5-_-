@@ -15,6 +15,7 @@
     position: absolute;
 }
 
+<<<<<<< HEAD
 .form-wrap {
     width: 380px;
     height: 480px;
@@ -48,6 +49,27 @@
     background: linear-gradient(to right, #ff105f, #ffad06);
     border-radius: 30px;
     transition: .5s;
+=======
+.loginbox h1{
+	width : 660px;
+	heigth : 50px;
+	font-size : 40px;
+	color : #ff9900;
+	border-bottom : 2px solid #ff9900;
+	padding-left : 40px;
+	box-sizing : 700px;
+	background-image : url();
+	backgroun-repeat : no-repeat;
+	background-position : 3px 5px;
+	margin-bottom : 30px;
+}
+
+.labelid{
+	font-size : 21px;
+	color : #666;
+	margin-left : 15px;
+	margin-right : 29px;
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
 }
 
 .input-group {
@@ -88,6 +110,50 @@ span {
 #login {
     left: 50px;
 }
+<<<<<<< HEAD
 #register {
     left: 450px;
 } 
+=======
+
+.btnwrap a{
+	width : 259px;
+	height : 45px;
+	background-color : #999;
+	text-decoration : none;
+	display : inline-block;
+	border-radius : 3px;
+	color : #fff;
+	font-size : 14px;
+	font-weight : bold;
+	line-height : 43px;
+}
+
+#loginbtn{
+	width : 259px;
+	height : 45px;
+	border : none;
+	background-color : #ff9900;
+	border-radius : 3px;
+	color : #fff;
+	font-size : 14px;
+	font-weight : bold;
+	position : relative;
+	top : 1px;
+}
+
+/* 로그인 아이디, 패스워스 인풋박스 */
+#loginid, #loginpw{
+    width: 50%;
+    height: 50px;
+    line-height: 29px;
+    background: #fff;
+    font-size: 20px;
+    margin-bottom : 10px;
+    border-radius : 3px;
+    background-color : #999;
+    }
+    
+    
+    
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/Bossam-Kimchi.git
