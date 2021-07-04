@@ -33,13 +33,20 @@
    margin-right: 3%;
 }
 
-#joinId, #joinPw, #joinName, #joinTel{
+#joinPw, #joinName, #joinTel{
    width: 70%;
    height: 50px;
    line-height: 29px;
    background: #fff;
    font-size: 50px;
    margin-bottom: 30px;
+}
+#joinId{
+   width: 70%;
+   height: 50px;
+   line-height: 29px;
+   background: #fff;
+   font-size: 50px;
 }
 
 /* 가입하기 버튼 */
@@ -66,14 +73,13 @@
    border-radius: 6px;
    border: 0;
    outline: 0;
+   margin-top: 10px;
+   margin-bottom: 30px;
 }
 /* 회원가입 아이디,패스워드 라벨 */
-#Lbel {
-   width: 100px;
-   height: 80px;
-   margin: 19px 0 8px;
-   font-size: 14px;
-   font-weight: 700;
+.lbel {
+	width: 20%;
+	 padding-bottom: 30px;
 }
 /* 회원가입로고 */
 

@@ -14,27 +14,28 @@
 			<form action="JoinCon" method="post">
 				<table class="jt">
 					<tr>
-						<td><label for="joinId" class="lbel">아이디</label></td>
-						<td><input type="text" id="joinId" name="id"><input
-							type="button" value="중복확인"></td>
+						<th class="lbel"><label for="joinId" >아이디</label></th>
+						<td><input type="text" id="joinId" name="id">
+						<input type="button" value="중복확인" id="dubbleChe"></td>
 					</tr>
 					<tr>
-						<td><label for="joinPw" class="lbel">패스워드</label></td>
+						<th class="lbel"><label for="joinPw" >패스워드</label></th>
 						<td><input type="password" id="joinPw" name="pw"></td>
 					</tr>
 					<tr>
-						<td><label for="joinName" class="lbel">이름</td>
+						<th class="lbel"><label for="joinName">이름</th>
 						<td><input type="text" id="joinName" name="name"></td>
 					</tr>
 					<tr>
-						<td><label for="joinTel" class="lbel">연락처</td>
+						<th class="lbel"><label for="joinTel" >연락처</th>
 						<td><input type="text" id="joinTel" name="tel"></td>
 					</tr>
-					<tr>
+					
+				</table>
+				<tr>
 						<td colspan=2 align="center"><input type="submit" id="jbtnb"
 							value="가입하기"></td>
 					</tr>
-				</table>
 			</form>
 		</div>
 </body>
