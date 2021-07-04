@@ -1,7 +1,9 @@
 <%@page import="model.memberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"%>
 
-<% memberDTO member = (memberDTO)session.getAttribute("member");%>
+<%
+memberDTO member = (memberDTO) session.getAttribute("member");
+%>
 
 <!DOCTYPE HTML>
 
@@ -14,8 +16,9 @@
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <style>
-  h1#logo{
-   font-size:30px;}
+h1#logo {
+	font-size: 30px;
+}
 </style>
 <body class="is-preload">
 	<div id="page-wrapper">
@@ -24,21 +27,28 @@
 		<div id="header">
 			<!-- 로그인 -->
 			<nav align="right">
-			<%if(member != null){ %>
-        	     <a href="update.jsp">정보수정</a>
-       	     	 <a href="logout.jsp">로그아웃</a><br>
-			<% }else{ %>
-            	 <a href="Login.jsp">로그인</a>
-            	 <%} %>
+				<%
+				if (member != null) {
+				%>
+				<a href="update.jsp">정보수정</a> <a href="logout.jsp">로그아웃</a><br>
+				<%
+				} else {
+				%>
+				<form action="Login.jsp" method="post">
+					<input type="submit" value="로그인">
+				</form>
+				<%
+				}
+				%>
 			</nav>
 			<form action="LoginSeller.jsp" method="post">
-					<div class="row">
+				<div class="row">
 					<input type="submit" value="입점신청">
-					</div>				
+				</div>
 			</form>
 			<!-- Logo -->
 			<h1 id="logo">
-				<a href="BMain.jsp" >BossamKimChi</a>
+				<a href="BMain.jsp">BossamKimChi</a>
 			</h1>
 
 			<!-- Nav -->
@@ -48,7 +58,6 @@
 					<li><a href="Graph.jsp">통계</a></li>
 					<li><a href="FarmList.jsp">농가리스트</a></li>
 					<li><a href="Book.jsp">예약조회</a></li>
-					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
 
