@@ -12,11 +12,8 @@
 		<h1>환영합니다!</h1>
 		<!-- Menu -->
 		<nav id="Update">
-			<p align="center">
-				회원가입을 축하합니다.<br>
-				<!-- request영역에 저장된 회원정보 중 이메일을 출력하시오. -->
-				메세지시스템의 새로운 아이디는
-				<%=request.getAttribute("id")%>입니다.
+			<p align="center">		
+				<%=request.getAttribute("email")%>님 회원가입 축하합니다.
 			</p>
 			<div class="search"></div>
 			<div class="btnwrap">

@@ -36,6 +36,7 @@
 					<li><a href="Graph.html">통계</a></li>
 					<li class="current"><a href="FarmList.html">농가리스트</a></li>
 					<li><a href="Book.html">예약조회</a></li>
+					<li><a href="two-sidebar.html">Two Sidebar</a></li>
 				</ul>
 			</nav>
 

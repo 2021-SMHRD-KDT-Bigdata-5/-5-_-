@@ -57,7 +57,7 @@ h1#logo {
 					<li class="current"><a href="BMain.jsp">Home</a></li>
 					<li><a href="Graph.jsp">통계</a></li>
 					<li><a href="FarmList.jsp">농가리스트</a></li>
-					<li><a href="Book.jsp">예약조회</a></li>
+					<li><a href="Book_Seller.jsp">예약조회</a></li>
 				</ul>
 			</nav>
 

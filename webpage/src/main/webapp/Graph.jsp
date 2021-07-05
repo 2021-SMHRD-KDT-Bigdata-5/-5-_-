@@ -32,10 +32,10 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="BMain.html">Home</a></li>
-					<li class="current"><a href="Graph.html">통계</a></li>
-					<li><a href="FarmList.html">농가리스트</a></li>
-					<li><a href="Book.html">예약조회</a></li>
+					<li><a href="BMain.jsp">Home</a></li>
+					<li><a href="Graph.jsp">통계</a></li>
+					<li><a href="FarmList.jsp">농가리스트</a></li>
+					<li><a href="Book_Seller.jsp">예약조회</a></li>
 				</ul>
 			</nav>
 
